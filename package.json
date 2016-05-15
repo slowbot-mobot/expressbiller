@@ -1,0 +1,20 @@
+{
+  "name": "js-invoicing",
+  "version": "1.0.0",
+  "description": "A JavaScript full-stack web application to allow Admins to create invoices and Customers to pay them.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Jim OKelly",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "bookshelf": "^0.9.5",
+    "knex": "^0.11.3",
+    "pg": "^4.5.5"
+  }
+}
